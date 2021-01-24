@@ -1,0 +1,151 @@
+*{
+    --main-color:#191513;
+    --background-color:#E7E6E4;
+    --card-color:#A48A6A;
+    --active-card-color:#7E2913;
+    --secondary-background-color:#CFBDA8;
+}
+
+body {
+    color: var(--background-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin-top:5%;
+}
+
+/* Style to create scroll bar in dropdown */
+/*.scrollable-dropdown{*/
+/*    height: auto;*/
+/*    max-height:400px;  !* Increase / Decrease value as per your need *!*/
+/*    !*overflow-x: hidden;*!*/
+/*}*/
+
+/*---------------Jumbotron Video---------------*/
+#video-text{
+    position: absolute;
+    z-index: 1;
+    color: var(--background-color);
+}
+
+#header-text{
+    font-size: 5em;
+    font-family: 'Crete Round', serif ;
+}
+
+#header-sub-text{
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+}
+
+#bean-img{
+    width: 100px;
+    height: auto;
+}
+
+div.jumbotron {
+    padding: 0;
+    margin: 0;
+}
+
+/*---------------Top Navigation---------------*/
+#top-nav{
+    position: sticky;
+    background-color: var(--main-color);
+    color: var(--background-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 5%;
+}
+
+#bean-nav-img{
+    height: 5em;
+    width: auto;
+}
+
+a:link{
+    color: var(--background-color);
+}
+
+a:link:hover{
+    color: var(--secondary-background-color);
+}
+
+/*---------------Section Text---------------*/
+#section-text{
+    font-size: 3em;
+    font-family: 'Crete Round', serif ;
+    padding-top: 5%;
+}
+
+/*---------------Card Images---------------*/
+#image {
+    height: 300px;
+    width: auto;
+
+}
+
+/*---------------Card Text---------------*/
+
+.card-title{
+    margin: 10% 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.card-price{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10% 0;
+}
+
+.card-region{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.card-roast{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/*---------------Card Container---------------*/
+
+#inputSelection{
+    margin: 5% 0;
+}
+
+#big-div {
+    margin: 3em;
+    border: none;
+    background-color: var(--background-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    transition: transform .2s; /* Animation */
+
+}
+
+#big-div:hover{
+    background-color: var(--active-card-color);
+    color: var(--background-color);
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/*---------------Error Message---------------*/
+#error-message{
+    color: lightgrey;
+}
+
+
+/*---------------Bottom Navigation---------------*/
+
+#bottom-nav{
+    background-color: var(--main-color);
+    margin-top: 10%;
+}
+
